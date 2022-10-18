@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project implements a Variational Autoencoder (VAE) that takes a handwritten digit as input and encodes it as a multivariate normal distribution where all of the dimensions are independent; Then this distribution is sampled and used to reconstruct the same image. 
+This project implements a Variational Autoencoder (VAE) that takes a handwritten digit as input and encodes it as a multivariate normal distribution where all of the dimensions are independent; Then this distribution is sampled and used to reconstruct the same image. It should be noted that the **PyTorch** framework was utilized for this project.
 
 ## Dataset
 
@@ -18,7 +18,9 @@ VAEs consist of two main sub-models: the encoder and the decoder. The encoder ou
 
 ## Training
 
-The network was trained on 60000 samples for 10 epoch; The process and other hyperparameters are shown in the accompanying python notebook.  
+The network was trained on 60000 samples for 10 epoch; The process and other hyperparameters are shown in the accompanying python notebook.
+
+It should be noted that this network was implemented and trained using the **PyTorch** framework.
 
 ## Evaluation
 
