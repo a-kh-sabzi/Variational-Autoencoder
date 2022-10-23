@@ -6,7 +6,7 @@ This project implements a Variational Autoencoder (VAE) that takes a handwritten
 
 ## Dataset
 
-The MNIST dataset is utilized for training and testing the Variational Autoencoder (VAE) model. This dataset consisits of 60000 and 10000 handwritten digits for training and test sets respectively. The data consists of 10 classes, and Each sample is a 28x28 grayscale image.
+The MNIST dataset is utilized for training and testing the Variational Autoencoder (VAE) model. This dataset consists of 60000 and 10000 handwritten digits for training and test sets respectively. The data consists of 10 classes, and Each sample is a 28x28 grayscale image.
 
 A few samples from the dataset are as follows: 
 
