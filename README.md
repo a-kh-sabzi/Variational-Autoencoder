@@ -14,7 +14,7 @@ A few samples from the dataset are as follows:
 
 ## Variational-Autoencoder (VAE)
 
-VAEs consist of two main sub-models: the encoder and the decoder. The encoder outputs the estimated distribution of the input image, and The decoder takes the estimated distribution and outputs the reconstructed images. AVEs are unsupervised learning models. It was assumed that the input data can be modeled with a multivariate normal distribution where all of the dimensions are independent; Thus the encoder outputs the means and standard deviations of the estimated distribution. VAEs have many applications such as generating artificial data. After the training is complete, the decoder can be used to generate similar data by receiving noise vectors as input.
+VAEs consist of two main sub-models: the encoder and the decoder. The encoder outputs the estimated distribution of the input image, and The decoder takes the estimated distribution and outputs the reconstructed images. VAEs are unsupervised learning models. It was assumed that the input data can be modeled with a multivariate normal distribution where all of the dimensions are independent; Thus the encoder outputs the means and standard deviations of the estimated distribution. VAEs have many applications such as generating artificial data. After the training is complete, the decoder can be used to generate similar data by receiving noise vectors as input.
 
 ## Training
 
